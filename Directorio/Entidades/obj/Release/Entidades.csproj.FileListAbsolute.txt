@@ -1,0 +1,6 @@
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\bin\Release\Entidades.dll
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\bin\Release\Entidades.pdb
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\obj\Release\Entidades.dll
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\obj\Release\Entidades.pdb
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache

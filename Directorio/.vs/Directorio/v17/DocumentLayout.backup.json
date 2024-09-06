@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\source\\repos\\Directorio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|c:\\users\\administrador\\source\\repos\\directorio\\directoriolanamme.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:directoriolanamme.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\directoriolanamme.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:directoriolanamme.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\css\\estilopersonalizado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:css\\estilopersonalizado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002E6F2E-FA27-4E11-97BA-8BC55FDACF8E}|Entidades\\Entidades.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\entidades\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002E6F2E-FA27-4E11-97BA-8BC55FDACF8E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798EB8CA-F637-4D82-8D56-DEAAC591DAF3}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\accesodatos\\funcionariodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798EB8CA-F637-4D82-8D56-DEAAC591DAF3}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\funcionariodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002E6F2E-FA27-4E11-97BA-8BC55FDACF8E}|Entidades\\Entidades.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\entidades\\unidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002E6F2E-FA27-4E11-97BA-8BC55FDACF8E}|Entidades\\Entidades.csproj|solutionrelative:entidades\\unidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798EB8CA-F637-4D82-8D56-DEAAC591DAF3}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\accesodatos\\conexiondatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798EB8CA-F637-4D82-8D56-DEAAC591DAF3}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\conexiondatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|C:\\Users\\Administrador\\source\\repos\\Directorio\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A7605C-F478-43F6-9DDE-9D268602CBF2}|Directorio.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-04T20:20:23.893Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionarioDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\AccesoDatos\\FuncionarioDatos.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\FuncionarioDatos.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\AccesoDatos\\FuncionarioDatos.cs",
+              "RelativeToolTip": "AccesoDatos\\FuncionarioDatos.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T23:01:30.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utilidades.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Utilidades.cs",
+              "RelativeDocumentMoniker": "Utilidades.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Utilidades.cs",
+              "RelativeToolTip": "Utilidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:52:56.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DirectorioLanamme.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\DirectorioLanamme.aspx.cs",
+              "RelativeDocumentMoniker": "DirectorioLanamme.aspx.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\DirectorioLanamme.aspx.cs*",
+              "RelativeToolTip": "DirectorioLanamme.aspx.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwFEAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T23:19:02.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Site.Master",
+              "RelativeToolTip": "Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-04T19:28:31.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DirectorioLanamme.aspx",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\DirectorioLanamme.aspx",
+              "RelativeDocumentMoniker": "DirectorioLanamme.aspx",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\DirectorioLanamme.aspx",
+              "RelativeToolTip": "DirectorioLanamme.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-04T23:16:57.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Entidades\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Entidades\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Entidades\\Funcionario.cs",
+              "RelativeToolTip": "Entidades\\Funcionario.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:26:34.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstiloPersonalizado.css",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\css\\EstiloPersonalizado.css",
+              "RelativeDocumentMoniker": "css\\EstiloPersonalizado.css",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\css\\EstiloPersonalizado.css",
+              "RelativeToolTip": "css\\EstiloPersonalizado.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T23:33:35.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConexionDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\AccesoDatos\\ConexionDatos.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\ConexionDatos.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\AccesoDatos\\ConexionDatos.cs",
+              "RelativeToolTip": "AccesoDatos\\ConexionDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:58:44.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Unidad.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Entidades\\Unidad.cs",
+              "RelativeDocumentMoniker": "Entidades\\Unidad.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Entidades\\Unidad.cs",
+              "RelativeToolTip": "Entidades\\Unidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T22:55:06.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:33:48.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\Administrador\\source\\repos\\Directorio\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:31:13.929Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

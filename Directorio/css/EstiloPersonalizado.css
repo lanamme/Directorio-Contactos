@@ -1,0 +1,117 @@
+﻿.employee-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2px;
+    margin-bottom: 15px; 
+    margin-right: 20px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 300px; 
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.employee-header {
+    background-color: #005da4;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+    .employee-header h3 {
+        color: white;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+.employee-body {
+    padding: 15px;
+}
+
+.employee-photo {
+    border-radius: 25%;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+.custom-navbar {
+    background-color: #005da4 !important; 
+}
+
+    .custom-navbar .navbar-brand,
+    .custom-navbar .nav-link {
+        color: #ffffff !important;
+    }
+
+
+.department-list h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.department-link {
+    display: block !important; /* Cambiar a bloque completo para ocupar todo el ancho */
+    padding: 10px 20px !important;
+    margin: 5px 0 !important;
+    background-color: #005da4 !important; /* Color de fondo */
+    color: white !important; /* Color de texto */
+    text-decoration: none !important;
+    border-radius: 5px !important; /* Bordes redondeados */
+    font-size: 12px !important;
+    font-weight: bold !important;
+    transition: background-color 0.3s ease !important; /* Transición suave */
+    width: 100% !important; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box !important; /* Asegura que el padding y el borde no superen el ancho */
+}
+
+    .department-link:hover {
+        background-color: #004080 !important; /* Color al pasar el ratón */
+        text-decoration: none !important; /* Sin subrayado */
+        color: #ffffff !important; /* Asegura que el texto siga siendo blanco */
+    }
+
+
+
+.menu-section {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.menu-title {
+    margin: 0;
+    padding: 10px;
+    background-color: #005da4;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+.menu-content {
+    padding: 10px;
+    display: none; /* Oculta el contenido inicialmente */
+}
+
+.menu-link {
+    display: block;
+    padding: 8px 0;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    color: #005da4;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+    .menu-link:hover {
+        background-color: #cccccc;
+    }

@@ -1,0 +1,9 @@
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\bin\Release\Entidades.dll
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\bin\Release\Entidades.pdb
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\obj\Release\AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\obj\Release\AccesoDatos.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\obj\Release\AccesoDatos.pdb
+C:\Users\Administrador\Desktop\Capacitacion_Anita\Prueba\AccesoDatos\obj\Release\AccesoDatos.csproj.AssemblyReference.cache
