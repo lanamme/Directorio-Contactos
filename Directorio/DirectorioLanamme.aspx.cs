@@ -29,20 +29,22 @@ namespace Directorio
             }
         }
 
-        private void cargaListaFuncionarios(string departamento)
+        private void cargaListaFuncionarios(string unidad)
         {
             List<Funcionario> listaFuncionarios;
-
-            if (!string.IsNullOrEmpty(departamento))
+           
+            if (!string.IsNullOrEmpty(unidad))
             {
-                // Filtrar los funcionarios por departamento
-                listaFuncionarios = funcionarioDatos.getFuncionarios(Utilidades.no_foto_path).Where(f => f.Unidad.nombre == departamento).ToList();
+                // Filtrar los funcionarios por unidad
+                listaFuncionarios = funcionarioDatos.getFuncionarios(Utilidades.no_foto_path).Where(f => f.Unidad.nombre == unidad).ToList();
             }
             else
             {
                 // Cargar todos los funcionarios
                 listaFuncionarios = funcionarioDatos.getFuncionarios(Utilidades.no_foto_path);
             }
+
+            Session["listaFuncionarios"] = listaFuncionarios;
 
             rpFuncionarios.DataSource = listaFuncionarios;
             rpFuncionarios.DataBind();
@@ -64,8 +66,11 @@ namespace Directorio
             {
                 // Filtrar y cargar la lista de funcionarios según el departamento seleccionado
                 cargaListaFuncionarios(unidad);
-                lblNoResults.Visible = false;
+                List<Funcionario> listaFuncionarios = (List<Funcionario>)Session["listaFuncionarios"];
+
+                lblNoResults.Visible = listaFuncionarios.Count == 0;
             }
+
         }
 
         // Método para buscar

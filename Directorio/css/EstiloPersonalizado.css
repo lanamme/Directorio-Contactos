@@ -85,6 +85,8 @@
 }
 
 .menu-title {
+    display: block; /* Hace que el botón ocupe todo el ancho */
+    margin: 0;
     margin: 0;
     padding: 10px;
     background-color: #005da4;
@@ -93,16 +95,22 @@
     font-size: 12px;
     font-weight: bold;
     border-radius: 8px 8px 0 0;
+    text-decoration: none;
 }
+    .menu-title:hover {
+        background-color: #004080;
+        text-decoration: none; 
+        color: white; 
+    }
 
 .menu-content {
-    padding: 10px;
+    padding: 0px;
     display: none; /* Oculta el contenido inicialmente */
 }
 
 .menu-link {
     display: block;
-    padding: 8px 0;
+    padding: 8px 3px;
     margin-bottom: 5px;
     background-color: #e0e0e0;
     color: #005da4;

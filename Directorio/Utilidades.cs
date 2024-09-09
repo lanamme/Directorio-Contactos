@@ -11,8 +11,8 @@ namespace Directorio
     internal static class Utilidades
     {
         public static List<System.Web.UI.WebControls.HyperLink> aplicaciones { get; set; }
-        //public static string path = @"\\gaia\AppFiles\EDP\Produccion\";
-        public static string path = @"\\gaia\AppFiles\EDP\pruebas\";
+        public static string path = @"\\gaia\AppFiles\EDP\Produccion\";
+        //public static string path = @"\\gaia\AppFiles\EDP\pruebas\";
         public static string logs_path = path + "logs";
         public static string no_foto_path = @"\\gaia\AppFiles\EDP\pruebas\fotos\no_foto.jpg";
         public static string fotos_path = path + "\\" + "fotos";
