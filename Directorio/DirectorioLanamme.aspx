@@ -100,28 +100,39 @@
 
         </div>
 
-        <!-- Lista de Empleados en el lado derecho -->
-        <div class="col-md-10">
-            <div class="employee-list d-flex flex-wrap justify-content-start">
-                <asp:Repeater ID="rpFuncionarios" runat="server">
-                <ItemTemplate>
-                    <div class="employee-card">
-                        <div class="employee-header">
-                            <h3><%# Eval("nombre_completo") %></h3>
-                        </div>
-                        <div class="employee-body">
-                            <img src='<%# Eval("rutaFotoMostrar") %>' alt='<%# Eval("nombre_completo") %>' class="img-thumbnail employee-photo">
-                            <p><strong><%# Eval("Unidad.nombre") %></strong>
-                            </br><%# Eval("puesto") %>
-                            </br> <strong>Edificio:</strong> <%# Eval("extension") %>
-                            </br> <strong>Oficina:</strong> <%# Eval("extension") %>
-                            </br> <strong>Teléfono:</strong> <%# Eval("extension") %>
-                            </br><strong>Correo:</strong>
-                            </br> <a href='mailto:<%# Eval("correo") %>'><%# Eval("correo") %></a></p>
-                        </div>
-                    </div>
-                </ItemTemplate>
-            </asp:Repeater>
+                <!-- Lista de Empleados en formato tabla -->
+                <div class="col-md-10">
+                    <table class="employee-table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Puesto</th>
+                                <th>Teléfono</th>
+                                <th>Correo electrónico</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <asp:Repeater ID="rpFuncionarios" runat="server">
+                                <ItemTemplate>
+                                    <tr>
+                                        <td><strong><%# Eval("nombre_completo") %></strong></td>
+                                        <td><%# Eval("puesto") %></td>
+                                        <td>
+                                            <%# 
+                                                string.IsNullOrEmpty(Eval("extension").ToString()) 
+                                                ? "" 
+                                                : "2511 " + Eval("extension") 
+                                            %>
+                                        </td>
+                                        <td>
+                                            <a href='mailto:<%# Eval("correo") %>'><%# Eval("correo") %></a>
+                                        </td>
+                                    </tr>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </tbody>
+                    </table>
+                </div>
 
                 <!-- Etiqueta para mostrar el mensaje "No se encontraron resultados" -->
                 <asp:Label ID="lblNoResults" runat="server" Text="No se encontraron resultados" CssClass="alert alert-warning" Visible="false"></asp:Label>

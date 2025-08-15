@@ -1,41 +1,44 @@
-﻿.employee-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 2px;
-    margin-bottom: 15px; 
-    margin-right: 20px; 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    min-width: 300px; 
-    max-width: 300px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top; 
+﻿.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
 }
 
-.employee-header {
-    background-color: #005da4;
-    padding: 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-    .employee-header h3 {
+    .employee-table thead tr {
+        background-color: #005da4; /* azul cabecera */
         color: white;
-        margin: 0;
-        font-size: 1.2em;
+        font-weight: bold;
     }
 
-.employee-body {
-    padding: 15px;
-}
+    .employee-table th {
+        padding: 12px 15px;
+        text-align: left;
+    }
 
-.employee-photo {
-    border-radius: 25%;
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
+    .employee-table td {
+        padding: 12px 15px;
+        vertical-align: middle;
+    }
+
+    .employee-table tbody tr:nth-child(odd) {
+        background-color: #f2f7fb; /* gris azulado claro */
+    }
+
+    .employee-table tbody tr:nth-child(even) {
+        background-color: white;
+    }
+
+    .employee-table a {
+        color: #005da4;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+        .employee-table a:hover {
+            text-decoration: underline;
+        }
 
 
 .custom-navbar {

@@ -10,3 +10,9 @@ C:\Users\Administrador\source\repos\Directorio\Entidades\obj\Debug\Entidades.csp
 C:\Users\Administrador\source\repos\Directorio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\source\repos\Directorio\Entidades\obj\Debug\Entidades.dll
 C:\Users\Administrador\source\repos\Directorio\Entidades\obj\Debug\Entidades.pdb
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\bin\Debug\Entidades.dll
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\obj\Debug\Entidades.dll
+C:\Users\asistuti01\Source\Repos\lanamme\Directorio-Contactos\Directorio\Entidades\obj\Debug\Entidades.pdb
