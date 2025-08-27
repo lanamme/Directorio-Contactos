@@ -26,7 +26,7 @@
                     <asp:LinkButton ID="lnkbtUnidad3" runat="server" Text="Centro de Transferencia Tecnológica" CommandArgument="Unidad de Centro de Transferencia Tecnológica" OnClick="FiltroUnidad" CssClass="menu-link" />
                     <asp:LinkButton ID="lnkbtUnidad4" runat="server" Text="Servicios de Apoyo" CommandArgument="Servicios de Apoyo" OnClick="FiltroUnidad" CssClass="menu-link" />
                     <asp:LinkButton ID="lnkbtUnidad5" runat="server" Text="Mantenimiento" CommandArgument="Unidad de Mantenimiento" OnClick="FiltroUnidad" CssClass="menu-link" />
-                    <asp:LinkButton ID="lnkbtUnidad6" runat="server" Text="Tecnologías de la Información" CommandArgument="Unidad de Tecnologías de la Información" OnClick="FiltroUnidad" CssClass="menu-link" />
+                    <asp:LinkButton ID="lnkbtUnidad6" runat="server" Text="Tecnologías de la Información" CommandArgument="Unidad Tecnologías de Información" OnClick="FiltroUnidad" CssClass="menu-link" />
                     <asp:LinkButton ID="lnkbtUnidad7" runat="server" Text="Proveeduría y Bienes Institucionales" CommandArgument="Unidad de Proveeduría y Bienes Institucionales" OnClick="FiltroUnidad" CssClass="menu-link" />
                     <asp:LinkButton ID="lnkbtUnidad8" runat="server" Text="Vínculo Externo" CommandArgument="Unidad de Vínculo Externo" OnClick="FiltroUnidad" CssClass="menu-link" />
                 </div>
@@ -121,7 +121,7 @@
                                             <%# 
                                                 string.IsNullOrEmpty(Eval("extension").ToString()) 
                                                 ? "" 
-                                                : "2511 " + Eval("extension") 
+                                                : "2511-" + Eval("extension") 
                                             %>
                                         </td>
                                         <td>
@@ -139,8 +139,8 @@
 
             </div>
         </div>
-    </div>
-</div>
+    
+
 
 
 
