@@ -126,3 +126,16 @@
     .menu-link:hover {
         background-color: #cccccc;
     }
+
+
+
+.btn-icon-circle-detalle {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}

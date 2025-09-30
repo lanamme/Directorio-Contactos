@@ -18,6 +18,15 @@
 
     <%-- Estilos con formato UCR  --%>
     <link href="css/EstiloPersonalizado.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-MV7K8+yDeYDj5QXq6v1Vn0f0CQpZK5vH5Qz9G2QhxV5fn0Wq0c5z3vZ4yZxT8GvCw2kqY9n13QnqG0h+B3x0jQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src='<%=Page.ResolveUrl("~/Scripts/jquery.min.js") %>'></script>
+    <script src='<%=Page.ResolveUrl("~/Scripts/bootstrap.min.js") %>'></script>
+
 
 </head>
 <body>

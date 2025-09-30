@@ -108,5 +108,7 @@ namespace Directorio
                 lblNoResults.Visible = false; // Asegurarse de que el mensaje esté oculto al mostrar todos los resultados
             }
         }
+
+
     }
 }
