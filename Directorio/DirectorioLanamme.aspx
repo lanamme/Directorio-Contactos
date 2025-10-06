@@ -105,6 +105,7 @@
                     </div>
 
                     <!-- Lista de Empleados en formato tabla -->
+                    <!-- Lista de Empleados en formato tabla -->
                     <div class="col-md-10">
                         <table id="tablaFuncionarios" class="employee-table">
                             <thead>
@@ -126,7 +127,6 @@
                                                 <%# string.IsNullOrEmpty(Convert.ToString(Eval("extension"))) ? "" : "2511-" + Eval("extension") %>
                                             </td>
                                             <td class="text-right">
-                                                <!-- Botón que abre/cierra la fila detalle (acordeón) -->
                                                 <button type="button"
                                                     class="btn btn-outline-info btn-icon-circle"
                                                     onclick="return toggleDetalle('<%# Eval("id_funcionario") %>');">
@@ -164,14 +164,52 @@
                                 </asp:Repeater>
                             </tbody>
                         </table>
+                        <br />
+                        <!-- Etiqueta para mostrar el mensaje "No se encontraron resultados" -->
+                        <asp:Label ID="lblNoResults" runat="server" Text="No se encontraron resultados" CssClass="alert alert-warning" Visible="false"></asp:Label>
+
+                        <!-- PAGINADOR -->
+                        <!-- PAGINADOR -->
+                        <asp:Panel ID="pnlPager" runat="server" Visible="false">
+                            <nav aria-label="Page navigation" class="mt-3">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <asp:LinkButton ID="lnkPrimero" runat="server" CommandName="First" OnCommand="Paging_Command" CssClass="page-link">« Primero</asp:LinkButton>
+                                    </li>
+                                    <li class="page-item">
+                                        <asp:LinkButton ID="lnkAnterior" runat="server" CommandName="Prev" OnCommand="Paging_Command" CssClass="page-link">&lt; Anterior</asp:LinkButton>
+                                    </li>
+
+                                    <!-- Repeater para números -->
+                                    <asp:Repeater ID="rptPager" runat="server">
+                                        <ItemTemplate>
+                                            <li class="page-item <%# ((bool)Eval("IsCurrent")) ? "active" : "" %>">
+                                                <asp:LinkButton runat="server"
+                                                    CommandName="Page"
+                                                    CommandArgument='<%# Eval("Value") %>'
+                                                    OnCommand="Paging_Command"
+                                                    CssClass="page-link">
+                            <%# Eval("Text") %>
+                                                </asp:LinkButton>
+                                            </li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+
+                                    <li class="page-item">
+                                        <asp:LinkButton ID="lnkSiguiente" runat="server" CommandName="Next" OnCommand="Paging_Command" CssClass="page-link">Siguiente &gt;</asp:LinkButton>
+                                    </li>
+                                    <li class="page-item">
+                                        <asp:LinkButton ID="lnkUltimo" runat="server" CommandName="Last" OnCommand="Paging_Command" CssClass="page-link">Último »</asp:LinkButton>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </asp:Panel>
+
+
+
                     </div>
 
-                    <!-- Etiqueta para mostrar el mensaje "No se encontraron resultados" -->
-                    <asp:Label ID="lblNoResults" runat="server" Text="No se encontraron resultados" CssClass="alert alert-warning" Visible="false"></asp:Label>
-
                 </div>
-            </div>
-
         </ContentTemplate>
     </asp:UpdatePanel>
 
