@@ -101,7 +101,15 @@ namespace Directorio
             }
 
             lblNoResults.Visible = false;
-            pnlPager.Visible = true; // 🔹 Mostrar el paginador si hay resultados
+            // 🔹 Ocultar el paginador si hay 15 o menos resultados
+            if (lista.Count <= PageSize)
+            {
+                pnlPager.Visible = false;
+            }
+            else
+            {
+                pnlPager.Visible = true;
+            }
 
             var pds = new PagedDataSource();
             pds.DataSource = lista;
@@ -112,8 +120,11 @@ namespace Directorio
             rpFuncionarios.DataSource = pds;
             rpFuncionarios.DataBind();
 
-            // Actualiza el paginador (botones)
-            UpdatePager(lista.Count);
+            // Solo actualizar el paginador si hay más de 15 resultados
+            if (lista.Count > PageSize)
+            {
+                UpdatePager(lista.Count);
+            }
         }
 
 
