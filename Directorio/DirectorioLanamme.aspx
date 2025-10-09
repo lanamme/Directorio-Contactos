@@ -26,9 +26,9 @@
                         <div class="menu-section">
                             <h3 class="menu-title" onclick="toggleMenu('section1')">Área Administrativa</h3>
                             <div id="section1" class="menu-content">
-                                <asp:LinkButton ID="lnkbtUnidad2" runat="server" Text="Gestión Administrativa Financiera" CommandArgument="Unidad Administrativa" OnClick="FiltroUnidad" CssClass="menu-link" />
+                                <asp:LinkButton ID="lnkbtUnidad2" runat="server" Text="Gestión Administrativa Financiera" CommandArgument="Unidad de Gestión Administrativa Financiera" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad3" runat="server" Text="Centro de Transferencia Tecnológica" CommandArgument="Unidad de Centro de Transferencia Tecnológica" OnClick="FiltroUnidad" CssClass="menu-link" />
-                                <asp:LinkButton ID="lnkbtUnidad4" runat="server" Text="Servicios de Apoyo" CommandArgument="Servicios de Apoyo" OnClick="FiltroUnidad" CssClass="menu-link" />
+                                <%--<asp:LinkButton ID="lnkbtUnidad4" runat="server" Text="Servicios de Apoyo" CommandArgument="Servicios de Apoyo" OnClick="FiltroUnidad" CssClass="menu-link" />--%>
                                 <asp:LinkButton ID="lnkbtUnidad5" runat="server" Text="Mantenimiento" CommandArgument="Unidad de Mantenimiento" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad6" runat="server" Text="Tecnologías de la Información" CommandArgument="Unidad Tecnologías de Información" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad7" runat="server" Text="Proveeduría y Bienes Institucionales" CommandArgument="Unidad de Proveeduría y Bienes Institucionales" OnClick="FiltroUnidad" CssClass="menu-link" />
@@ -52,6 +52,7 @@
                             <h3 class="menu-title" onclick="toggleMenu('sectionTransport')">Programa de Infraestructura del Transporte</h3>
                             <div id="sectionTransport" class="menu-content">
                                 <!-- Sub-áreas del Programa de Infraestructura del Transporte con "Unidad" al inicio -->
+                                <asp:LinkButton ID="LinkButton1" runat="server" Text="Coordinación Programa de Infraestructura del Transporte" CommandArgument="Programa de Infraestructura del Transporte" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad12" runat="server" Text="Gestión Municipal" CommandArgument="Unidad de Gestión Municipal" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad13" runat="server" Text="Gestión y Evaluación de la Red Vial Nacional" CommandArgument="Unidad de Gestión y Evaluación de la Red Vial Nacional" OnClick="FiltroUnidad" CssClass="menu-link" />
                                 <asp:LinkButton ID="lnkbtUnidad14" runat="server" Text="Investigación en Infraestructura y Transporte" CommandArgument="Unidad de Investigación en Infraestructura y Transporte" OnClick="FiltroUnidad" CssClass="menu-link" />
@@ -189,7 +190,7 @@
                                                     CommandArgument='<%# Eval("Value") %>'
                                                     OnCommand="Paging_Command"
                                                     CssClass="page-link">
-                            <%# Eval("Text") %>
+                                                    <%# Eval("Text") %>
                                                 </asp:LinkButton>
                                             </li>
                                         </ItemTemplate>

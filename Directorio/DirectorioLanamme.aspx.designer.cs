@@ -69,15 +69,6 @@ namespace Directorio
         protected global::System.Web.UI.WebControls.LinkButton lnkbtUnidad3;
 
         /// <summary>
-        /// Control lnkbtUnidad4.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkbtUnidad4;
-
-        /// <summary>
         /// Control lnkbtUnidad5.
         /// </summary>
         /// <remarks>
@@ -139,6 +130,15 @@ namespace Directorio
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton lnkbtUnidad11;
+
+        /// <summary>
+        /// Control LinkButton1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
 
         /// <summary>
         /// Control lnkbtUnidad12.
